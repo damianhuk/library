@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": true,
+    "preserveConstEnums": true,
+    "downlevelIteration": true,
+    "target": "es6",
+    "lib": ["esnext", "dom"],
+    "sourceMap": true,
+    "outDir": "dist",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "moduleResolution": "Node",
+    "typeRoots": [
+      "./typing-stubs",
+      "./node_modules/@types"
+    ]
+  }
+}
