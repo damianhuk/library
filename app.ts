@@ -6,6 +6,7 @@ import * as session from 'express-session';
 import {join} from "path";
 import { handlebarsHelpers } from './utils/handlebars-helpers';
 import {handleError} from "./utils/errors";
+import 'dotenv/config';
 
 const Redis = require('ioredis');
 const RedisStore = require('connect-redis')(session)
